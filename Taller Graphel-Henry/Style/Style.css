@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+body{
+    width: 100%;
+    margin: 0px;
+}
+/*INICIO*/
+header {
+    display: flex;
+    justify-content: space-around;
+    background: #303238;
+    align-items: center;
+    border-bottom: 7px solid rgb(45, 206, 255);
+    
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    height: 60px;
+    flex-direction: column;
+    
+    
+}
+nav ul {
+    display: flex;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 14px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: all 300ms ease;
+    float: right;
+    align-items: center;
+}
+
+/* el span no cambia el color de la palabra multimedia :)*/
+span:not(h1){
+    color: rgb(45, 206, 255);
+}
+.inicio:not(li){
+    color: rgb(45, 206, 255);
+}
+.Diseño{
+    color: white;
+}
+.Expertos{
+    background-image: url(../ASSETS/IMG/cabecera.jpg);
+    height: 80vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8vh;
+}
+p{
+    font-size: 2vh;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.boletin{
+    display: flex;
+    background-color: #303238;
+    width: 100%;
+    height: 80px;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+button{
+    background-color: orangered;
+    border: none;
+    width: 97px;
+    height: 45px;
+    color: white;
+    font-size: 16px;
+    
+    
+
+}
+input{
+    display: flex;
+    width: 270px;
+    height: 40px;
+}
+
+aside div{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+.caja1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin: 10px;
+    margin-bottom: 150px;
+}
+section .caja1 p{
+    width: 70%;
+    text-align: center;
+}
+
+.img{
+    width: 200px;
+
+}
+section{
+    display: flex;
+}
+footer{
+    background-color: #2dceff;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+    margin-top: 20px;
+    bottom: 0;
+}
+
+/*NOSOTROS*/
+.texto {
+    width: 100%;
+}
+.parrafo {
+    color: white;
+    padding: 16px;
+    background-color: #303238;
+}
+.text1 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 30%;
+    padding: 0px;
+    color: white;
+    margin-left: 3vw;
+
+}
+.nosotros{
+    margin-top: 33px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    width: auto;
+}
+.quehacemos{
+    color: white;
+    width: 30%;
+    height: 170px;
+    margin-top: 30px;
+    float: right;
+    margin-right: 150px;
+    background-color: #303238;
+    padding: 25px 10px;
+    
+
+}
+.quehacemosco{
+    color: white;
+    width: 30%;
+    height: 170px;
+    margin-top: 30px;
+    float: right;
+    margin-right: 150px;
+    background-color: #303238;
+}
+.imgnosotros{
+    width: 100%;
+}
+/*SERVICIOS*/
+.servicios{
+    display: flex;
+    align-items: center;
+}
+
+.cajas{
+    display: flex;
+    background-color:darkgray;
+    padding-left: 20px;
+    flex-direction: column;
+    margin: 5px;
+    height: 200px;
+    width: 750px;
+    font-size: 20px;
+    padding-left: px;
+
+}
+p{
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    align-items: flex-start;
+    display: flex;
+    padding: 17px;
+    flex-direction: column;
+}
+.servicios_p{
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    width: 70%;
+
+}
+
+/*CONTACTO*/
+.formulario{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 33px;
+    margin-left: 62px;
+    margin-right: 62px;
+    margin-bottom: 12px;
+    height: 150px;
+    width: 790px;
+
+}
+.registro{
+    padding: 10px 0px 10px 0px;
+    width: 100%;
+    
+    
+
+}
+.enviar{
+    width: 100%;
+    background-color: orangered;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+
+}
+.formulario h4{
+    font-size: 22px;
+    
+}
+
+.imgcontacto{
+    width: 100%;
+    margin-top: 50px;
+}
+
